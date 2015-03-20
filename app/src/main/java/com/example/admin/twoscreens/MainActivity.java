@@ -39,7 +39,7 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void start(View knapp) {
+    public void start(View v) {
         Intent intent = new Intent (this, test.class);
         startActivity(intent);
     }
